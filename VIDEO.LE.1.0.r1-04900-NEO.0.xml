@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="clo" fetch="https://git.codelinaro.org" review="codelinaro.org"/>
+  <default remote="clo" revision="refs/heads/VIDEO.LE.1.0.r1"/>
+  <project name="clo/le/meta-qti-video" path="poky/meta-qti-video" revision="4025c1277377246639779e1c020f6f375d641fba" upstream="refs/heads/video-userspace.lnx.codec2.2.1.r1-rel"/>
+  <project name="clo/le/platform/vendor/opensource/le-codec2-port" path="src/vendor/qcom/opensource/le-codec2-port" revision="ce25ebdec91db390846755d68035b6dd5ab8be15" upstream="refs/heads/le-codec2-frameworks.lnx.2.1.r2-rel"/>
+  <project name="clo/le/platform/vendor/opensource/mmrm-driver" path="src/vendor/qcom/opensource/mmrm-driver" revision="0af1635fae812319107fc89e93ce2c3983cbd127" upstream="refs/heads/mmrm-kernel-waipio.lnx.1.1.r1-rel"/>
+  <project name="clo/le/platform/vendor/opensource/video-driver" path="src/vendor/qcom/opensource/video-driver" revision="c2e80777434ee37089c5662e0d7a11e115008031" upstream="refs/heads/video-kernel-waipio.lnx.1.1.r1-rel"/>
+  <project name="clo/le/qc/components/le-codec2-frameworks-lnx/oe-recipes-oss" path="poky/meta-qti-bsp/recipes-le-codec2-frameworks" revision="0ad748985fc661ac5e7d590b36af4e14c7c56cbd" upstream="refs/heads/le-codec2-frameworks.lnx.2.1.r2-rel"/>
+  <project name="clo/le/qc/components/mmrm-kernel-lnx/oe-recipes-oss" path="poky/meta-qti-bsp/recipes-mmrm-kernel" revision="0c617972be6bb6a24beaf0649f5ea3429e668682" upstream="refs/heads/mmrm-kernel-waipio.lnx.1.1.r1-rel"/>
+  <project name="clo/le/qc/components/video-kernel-lnx/oe-recipes-oss" path="poky/meta-qti-bsp/recipes-video-kernel" revision="f6eae2445c07cb8649b7dc0505e43eece5d430bc" upstream="refs/heads/video-kernel-waipio.lnx.1.1.r1-rel"/>
+  <project name="clo/le/qc/components/video-userspace-lnx-codec2/oe-recipes-oss" path="poky/meta-qti-bsp/recipes-video-userspace" revision="076bc905f851a3b81f59e4181ce390f88a318ada" upstream="refs/heads/video-userspace.lnx.codec2.2.1.r1-rel"/>
+</manifest>
