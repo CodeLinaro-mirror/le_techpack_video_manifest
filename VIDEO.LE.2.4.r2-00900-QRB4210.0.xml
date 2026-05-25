@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="clo" fetch="https://git.codelinaro.org" review="codelinaro.org"/>
+  <default remote="clo" revision="refs/heads/VIDEO.LE.2.4"/>
+  <project name="clo/le/platform/vendor/opensource/le-codec2-port" path="src/vendor/qcom/opensource/le-codec2-port" revision="5e10e76d34cdff0cef695e2ec3ce7909c502b32e" upstream="refs/heads/le-codec2-frameworks.lnx.2.5.r9-rel"/>
+  <project name="clo/la/platform/vendor/opensource/mmrm-devicetree" path="src/vendor/qcom/opensource/mmrm-devicetree" revision="e8a1ba97fea40dce4830e025599ab8805d8627dd" upstream="refs/heads/mmrm-kernel.lnx.5.2.r7-rel"/>
+  <project name="clo/la/platform/vendor/opensource/mmrm-driver" path="src/vendor/qcom/opensource/mmrm-driver" revision="1c76c73a3ea979d704789d3f7fa78ead60e5c1a2" upstream="refs/heads/mmrm-kernel-waipio.lnx.1.4.r11-rel" groups="cyborg"/>
+  <project name="clo/la/platform/vendor/opensource/mmrm-driver-test" path="src/vendor/qcom/opensource/mmrm-driver/test" revision="b53832880c35e12da195e80784ed72880121bb4e" upstream="refs/heads/mmrm-kernel-waipio.lnx.1.4.r11-rel" groups="cyborg"/>
+  <project name="clo/la/platform/vendor/opensource/video-devicetree" path="src/vendor/qcom/opensource/video-devicetree" revision="f8470db55ef06a511c3b10e4c3f89b00e9f1a9ba" upstream="refs/heads/video-kernel-waipio.lnx.1.4.r11-rel"/>
+  <project name="clo/la/platform/vendor/opensource/video-driver" path="src/vendor/qcom/opensource/video-driver" revision="933b832a56f7a217fce5583fb8ead447e2e9105e" upstream="refs/heads/video-kernel-waipio.lnx.1.4.r11-rel"/>
+  <project name="clo/la/platform/vendor/opensource/video-driver-test" path="src/vendor/qcom/opensource/video-driver/test" revision="66256693d2930b5846686fa1894fd42e8b7b8d5a" upstream="refs/heads/video-kernel-waipio.lnx.1.4.r11-rel"/>
+  <project name="clo/la/platform/vendor/qcom/opensource/video-qapi" path="src/vendor/qcom/opensource/video-qapi" revision="76d9ff9f6c3a10cd8807a76f3f664f88e0b850a4" upstream="refs/heads/video-userspace.lnx.codec2.2.4.r11-rel"/>
+  <project name="clo/le/qc/components/le-codec2-frameworks-lnx/oe-recipes-oss" path="poky/meta-qti-bsp/recipes-le-codec2-frameworks" revision="1d55501eb55629b56c5acf12fba474c52a243843" upstream="refs/heads/le-codec2-frameworks.lnx.2.5.r9-rel"/>
+  <project name="clo/le/qc/components/mmrm-kernel-lnx/oe-recipes-oss" path="poky/meta-qti-bsp/recipes-mmrm-kernel" revision="e11dddd3d4149c0d4ce1ebc19b1029bad5cf4cb4" upstream="refs/heads/mmrm-kernel.lnx.5.2.r7-rel"/>
+  <project name="clo/le/qc/components/video-kernel-lnx/oe-recipes-oss" path="poky/meta-qti-bsp/recipes-video-kernel" revision="77568dc1c5a8d02fb208e40aa1328ef4fdc05799" upstream="refs/heads/video-kernel-waipio.lnx.1.4.r11-rel"/>
+</manifest>
